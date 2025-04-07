@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Styled Table</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 50%;
+            margin: 20px;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+
+        th {
+            background-color:yellow;
+            color: black;
+        }
+
+        tr:nth-child(even) {
+            background-color: white;
+        }
+
+        tr:nth-child(odd) {
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Styled Table Example</h2>
+
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>job</th>
+        </tr>
+        <tr>
+            <td>x</td>
+            <td>28</td>
+            <td>doctor</td>
+        </tr>
+        <tr>
+            <td>y</td>
+            <td>30</td>
+            <td>engineer</td>
+        </tr>
+        <tr>
+            <td>z</td>
+            <td>26</td>
+            <td>driver</td>
+        </tr>
+        <tr>
+            <td>a</td>
+            <td>28</td>
+            <td>entrepeneur</td>
+        </tr>
+    </table>
+
+</body>
+</html>
